@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fadca28c-30d0-40c7-af04-3abff6abc06f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/train_pos_tagger.py" afterPath="$PROJECT_DIR$/train_pos_tagger.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -186,6 +185,21 @@
       <option name="presentableId" value="Default" />
       <updated>1559594883931</updated>
     </task>
+    <task id="LOCAL-00001" summary="finalized pos tagger">
+      <created>1560095965642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560095965643</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finalized pos tagger">
+      <created>1560096052984</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560096052984</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -220,6 +234,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finalized pos tagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalized pos tagger" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
