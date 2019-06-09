@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fadca28c-30d0-40c7-af04-3abff6abc06f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/train_ner_tagger.py" afterPath="$PROJECT_DIR$/train_ner_tagger.py" />
-      <change beforePath="$PROJECT_DIR$/train_pos_tagger.py" afterPath="$PROJECT_DIR$/train_pos_tagger.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/train_ner_tagger.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
-              <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+              <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -272,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560097224543</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test set is loaded from the file">
+      <created>1560097332570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560097332570</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -312,7 +317,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finalized pos tagger" />
     <MESSAGE value="ner tagger is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ner tagger is added" />
+    <MESSAGE value="test set is loaded from the file" />
+    <option name="LAST_COMMIT_MESSAGE" value="test set is loaded from the file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -626,7 +632,7 @@
     <entry file="file://$PROJECT_DIR$/train_ner_tagger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
-          <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
+          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
