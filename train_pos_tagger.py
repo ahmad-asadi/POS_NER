@@ -98,10 +98,12 @@ cm = np.array(cm.astype('float') / cm.sum(axis=1)[:, np.newaxis])
 print(cm)
 
 cm = np.nan_to_num(cm)
-cm = np.fill_diagonal(cm, 0)
+np.fill_diagonal(cm, 0)
 print(cm)
 index = np.argmax(cm)
-print(index)
+i = int(index/len(cm))
+j = int(index % len(cm))
+print("Maximum error: ", i, j)
 
 def pos_tag(sentence):
     tags = clf.predict([features(sentence, index) for index in range(len(sentence))])
