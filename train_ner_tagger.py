@@ -17,13 +17,7 @@ import numpy as np
 # nltk.download("punkt")
 
 tagged_sentences = load_ner_corpus()
-
-# tagged_sentences = nltk.corpus.treebank.tagged_sents()
-
-print(tagged_sentences[0])
-print("Tagged sentences: ", len(tagged_sentences))
-print("Tagged words:", len(nltk.corpus.treebank.tagged_words()))
-
+test_tagged_sentences = load_ner_corpus(is_train=False)
 
 def features(sentence, index):
     """ sentence: [w1, w2, ...], index: the index of the word """
@@ -51,12 +45,8 @@ def features(sentence, index):
 def untag(tagged_sentence):
     return [w for w, t in tagged_sentence]
 
-pprint.pprint(features(['This', 'is', 'a', 'sentence'], 2))
-
-# Split the dataset for training and testing
-cutoff = int(.75 * len(tagged_sentences))
-training_sentences = tagged_sentences[:cutoff]
-test_sentences = tagged_sentences[cutoff:]
+training_sentences = tagged_sentences
+test_sentences = test_tagged_sentences
 
 print(len(training_sentences))  # 2935
 print(len(test_sentences))  # 979

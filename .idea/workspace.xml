@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fadca28c-30d0-40c7-af04-3abff6abc06f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/train_ner_tagger.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/datasets.py" afterPath="$PROJECT_DIR$/datasets.py" />
+      <change beforePath="$PROJECT_DIR$/train_ner_tagger.py" afterPath="$PROJECT_DIR$/train_ner_tagger.py" />
+      <change beforePath="$PROJECT_DIR$/train_pos_tagger.py" afterPath="$PROJECT_DIR$/train_pos_tagger.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +32,8 @@
       <file leaf-file-name="train_pos_tagger.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_pos_tagger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="99" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="251">
+              <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -44,8 +44,8 @@
       <file leaf-file-name="train_ner_tagger.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/train_ner_tagger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="233">
+              <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -114,9 +114,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/POS.py" />
+        <option value="$PROJECT_DIR$/datasets.py" />
         <option value="$PROJECT_DIR$/train_pos_tagger.py" />
         <option value="$PROJECT_DIR$/train_ner_tagger.py" />
-        <option value="$PROJECT_DIR$/datasets.py" />
       </list>
     </option>
   </component>
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560096070473</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ner tagger is added">
+      <created>1560097224543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560097224543</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -304,7 +311,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finalized pos tagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="finalized pos tagger" />
+    <MESSAGE value="ner tagger is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ner tagger is added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -581,16 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_pos_tagger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="99" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/NERte.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8910">
@@ -615,10 +613,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/train_pos_tagger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="50" column="38" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/train_ner_tagger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="233">
+          <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
